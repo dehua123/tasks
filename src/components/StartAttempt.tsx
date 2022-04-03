@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-
+import { ColoredBox } from "../bad-components/ColoredBox";
 export function StartAttempt(): JSX.Element {
     //two states for the thing
     const [attempts, amountofAttempts] = useState<number>(4);
